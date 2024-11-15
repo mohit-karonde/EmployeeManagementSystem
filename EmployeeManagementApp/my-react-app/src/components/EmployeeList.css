@@ -1,0 +1,27 @@
+.card {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 20px auto; /* Centering card vertically */
+    background-color: #ffffff; /* White background */
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.table {
+    margin-bottom: 0; /* Removes default margin */
+}
+
+.table th {
+    background-color: black
+}
